@@ -22,7 +22,7 @@ estimator:
       #update algorithm
 
 
-model_dirs: models/project_model.sav
+model_dirs: models/project_model.joblib
 
 
 reports: 
@@ -36,7 +36,7 @@ mlflow_config:
   experiment_name: elastic_net
   run_name: mlops
   registered_model: elasticnetehrsource #register under algorithm
-  remote_server_uri: 127.0.0.1:5000
+  remote_server_uri: http://127.0.0.1:5000
 
 
   

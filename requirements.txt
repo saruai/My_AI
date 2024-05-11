@@ -6,5 +6,5 @@ mlflow
 psycopg2-binary
 argparse
 jupyterlab
-
+joblib
 
