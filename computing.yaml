@@ -17,8 +17,10 @@ split_data:
 estimator:
   elasticnet: 
     computing:
-      alpha: 0.7
-      l1_ratio: 0.8
+      alpha: 0.5
+      l1_ratio: 0.7
+      
+
       #update algorithm
 
 
@@ -33,9 +35,9 @@ reports:
 
 mlflow_config:
   artifacts_dir: artifacts #evidence
-  experiment_name: elastic_net
+  experiment_name: elasticnet_new
   run_name: mlops
-  registered_model: elasticnetehrsource #register under algorithm
+  registered_model: elasticnet_new #register under algorithm
   remote_server_uri: http://127.0.0.1:5000
 
 

@@ -23,7 +23,7 @@ stages:
     deps:
       - data/processed/train_EHR.csv
       - data/processed/test_EHR.csv
-      - src/train_and_evaluate.py    
+      - src/train_and_evaluate.py      #test and evaluate are same
 
     computing:
       - estimator.elasticnet.computing.alpha
